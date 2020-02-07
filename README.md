@@ -6,14 +6,14 @@ This application is open-source under MIT License (see LICENSE file)
 
 ## Availability
 
-### Webserver
-TBD
-
 ### CLI
-TBD
 
 #### Running miRNA probes
-TBD
+To find probes for selected miRNA precursor run `python ./mirna-probes/probes.py hsa-mir-22`.
+
+To see options for this function please see `python ./mirna-probes/probes.py --help`
+
+Results will be saved in `./mirna-probes/results/` localization with day and hour within filename.
 
 ## Authors
 Martyna O. Urbanek-Trzeciak

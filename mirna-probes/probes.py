@@ -11,7 +11,7 @@ def main(seq, org='hsa'):
 
     click.echo("Probes for: {}, {}".format(seq, org))
 
-    filename, status = search(seq1=seq, org=org)
+    filename, status = search(seq=seq, org=org)
 
     if status:
         click.echo("Results saved in {}".format(filename))
